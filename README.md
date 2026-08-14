@@ -34,23 +34,24 @@ at a biweekly frequency across the full well network.
 
 ## 📁 Project structure
 
+```
 well-pump-cycle-analyzer/
 │
-├── pipeline_pozos.ipynb ← Main notebook
+├── pipeline_pozos.ipynb
 │
-├── data/
-│ ├── valores_pozos/
-│ │ ├── pozo_1_2026_06.csv ← Sensor data per well (fictional)
-│ │ ├── pozo_2_2026_06.csv
-│ │ └── pozo_3_2026_06.csv
-│ │
-│ ├── valores_caudalimetro/
-│ │ └── registro_caudalimetros.xlsx ← Monthly flow meter readings
-│ │
-│ └── registro_pozos/
-│ └── registro_pozos_final.csv ← Pipeline output sample
+└── data/
+    ├── valores_pozos/
+    │   ├── pozo_1_2026_06.csv
+    │   ├── pozo_2_2026_06.csv
+    │   └── pozo_3_2026_06.csv
+    │
+    ├── valores_caudalimetro/
+    │   └── registro_caudalimetros.xlsx
+    │
+    └── registro_pozos/
+        └── registro_pozos_final.csv
 
----
+```
 
 ## 🛠 Tech stack
 
@@ -67,7 +68,7 @@ pip install pandas openpyxl
 jupyter notebook pipeline_pozos.ipynb
 ```
 
-Open the notebook and run all cells (`Kernel → Restart & Run All`).
+Open the notebook and run all cells (`Kernel → Restart Kernel and Run All Cells...`).
 
 ---
 
